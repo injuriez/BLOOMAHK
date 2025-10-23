@@ -1,0 +1,7 @@
+Bar minigame in simple terms:
+Direction > Deadzone && Direction < Deadzone2 = Action 1 (<)
+Direction < -Deadzone && Direction > -Deadzone2 = Action 2 (>)
+FishX < MaxLeftBar = Action 3
+FishX > MaxRightBar = Action 4
+Direction > Deadzone2 = Action 5 (Failsafe)
+Direction < -Deadzone2 = Action 6 (Failsafe)
